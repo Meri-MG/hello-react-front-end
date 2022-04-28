@@ -32,7 +32,7 @@ class HelloWorld extends React.Component {
     return (
       <React.Fragment>
         <div className="container">
-          <p>Hey, </p>
+          <p>Hey, friend</p>
           <button
             className="getGreetingsbtn"
             onClick={() => this.props.getGreetings()}
