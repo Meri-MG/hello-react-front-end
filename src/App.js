@@ -1,9 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HelloWorld from './components/HelloWorld';
-import configureStore from './redux/configureStore';
 import { Provider } from 'react-redux';
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import configureStore from './redux/configureStore';
+import HelloWorld from './components/HelloWorld';
+import './App.css';
+
 const store = configureStore();
 
 function App() {
